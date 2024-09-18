@@ -27,6 +27,7 @@ main {
 }
 
 .title {
+  font-weight: bold;
   color: #1b1b1b;
 }
 
@@ -52,6 +53,7 @@ main {
   width: 100%;
   height: 660px;
   margin-top: 44px;
+  object-fit: cover;
 }
 
 .section-top p {
@@ -59,10 +61,38 @@ main {
   margin-bottom: 44px;
 }
 
-.section-bottom {
-  
+.section-bottom p{
+  margin-top: 8px;
+  margin-bottom: 64px;
 }
 
 .subtitle {
-  
+  font-size: 16px;
+  color: #333333;
+}
+
+.card-section-bottom img {
+  border-radius: 28px;
+  width: 100%;
+  height: 350px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.card-section-bottom p {
+  margin-bottom: 16px;
+}
+
+.card-section-bottom span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card-section-bottom ul {
+  padding-left: 26px;
+}
+
+.card-section-bottom li {
+  font-weight: bold;
+  font-size: 16px;
 }
